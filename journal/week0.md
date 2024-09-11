@@ -35,3 +35,36 @@ tasks:
       cd $THEIA_WORKSPACE_ROOT
 ```
 
+
+HOW to create a new branch in the git repo::
+https://graphite.dev/guides/git-commit-to-new-branch
+    Create a new branch with git checkout -b new-feature
+    Add changes to your new branch with git add
+    Commit your changes with git commit -m "Your message"
+    Push your branch to a remote with git push -u origin new-feature
+
+Step 1: Create a new branch:
+```git checkout -b new-feature```
+Create a new branch and keep your staged changes
+```git checkout -b new-feature```
+If you have changes already staged (using git add), and you want to move these to a new branch
+
+Step 2: Add changes to the new branch::
+
+```git add <file-or-directory>```
+
+Step 3: Commit the changes::
+
+```git commit -m "Add a descriptive message here"```
+
+Step 4: Push the new branch to a remote repository
+Check if the remote exists
+
+Before pushing, check if the remote repository is set up:
+```git remote -v```
+
+```git remote add origin <repository-url>```
+
+Push the new branch to the remote repository
+
+```git push -u origin new-feature```
