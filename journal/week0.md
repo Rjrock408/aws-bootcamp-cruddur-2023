@@ -3,7 +3,7 @@
 Installing AWS CLI
 
 ![image](https://github.com/user-attachments/assets/76986645-ee86-4ee1-ba2a-626c8eea1531)
-![image](https://github.com/user-attachments/assets/00ac6e0f-c9f0-4bb0-bd2f-773345e72835)
+
 
 
 installin awscli in your local system(linux)
@@ -22,6 +22,7 @@ SET environment variables for local machine
 
 Update our .gitpod.yml to include the following task.
 
+```
 tasks:
   - name: aws-cli
     env:
@@ -32,5 +33,5 @@ tasks:
       unzip awscliv2.zip
       sudo ./aws/install
       cd $THEIA_WORKSPACE_ROOT
-
+```
 
