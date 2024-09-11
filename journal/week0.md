@@ -4,7 +4,8 @@ Installing AWS CLI
 
 ![image](https://github.com/user-attachments/assets/76986645-ee86-4ee1-ba2a-626c8eea1531)
 
-
+AWS CLI references:
+https://docs.aws.amazon.com/cli/latest/reference/
 
 installin awscli in your local system(linux)
 ![image](https://github.com/user-attachments/assets/2960d4ae-1bd7-4747-8dcc-3208962e528d)
@@ -68,3 +69,18 @@ Before pushing, check if the remote repository is set up:
 Push the new branch to the remote repository
 
 ```git push -u origin new-feature```
+
+
+![image](https://github.com/user-attachments/assets/0e9d8213-b107-44f0-81a8-18c343ac3144)
+
+
+
+
+
+
+
+
+
+
+
+
